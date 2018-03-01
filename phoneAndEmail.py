@@ -41,5 +41,5 @@ for phoneNumber in extractedPhone:
 print(extractPhone)
 print(extractedEmail)
 #TODO: Copy the extracted email/phone to the clipboard
-results = '\n'.join(allPhoneNumbers) + \n'.join(extractedEmail)
+results = '\n'.join(allPhoneNumbers) + '\n'.join(extractedEmail)
 pyperclip.copy(results)
